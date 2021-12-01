@@ -1,14 +1,14 @@
-%define		kdeplasmaver	5.23.3
+%define		kdeplasmaver	5.23.4
 %define		qtver		5.9.0
 %define		kpname		kwrited
 Summary:	kwrited
 Name:		kp5-%{kpname}
-Version:	5.23.3
+Version:	5.23.4
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		Base
 Source0:	http://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	67e10d72bd2699d1c31c4fed276699ff
+# Source0-md5:	8d5500231378fce92b938e650b93af02
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel
 BuildRequires:	Qt5Gui-devel >= %{qtver}
