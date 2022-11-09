@@ -1,17 +1,17 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeplasmaver	5.26.2
+%define		kdeplasmaver	5.26.3
 %define		qtver		5.15.2
 %define		kpname		kwrited
 Summary:	kwrited
 Name:		kp5-%{kpname}
-Version:	5.26.2
+Version:	5.26.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		Base
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	251482e1b1b31b02ad82b2d27fbb33b3
+# Source0-md5:	eb5a89eb83f2a1af4d5b4b4a6698d430
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel
 BuildRequires:	Qt5Gui-devel >= %{qtver}
